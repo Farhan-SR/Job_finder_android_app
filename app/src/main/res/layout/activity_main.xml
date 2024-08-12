@@ -1,0 +1,2009 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="@color/mint_green"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:scaleType="fitXY"
+            android:layout_width="400dp"
+            android:layout_height="150dp"
+            android:src="@drawable/job"
+            android:layout_margin="5dp"/>
+
+
+        <TextView
+            android:textAllCaps="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="The bigest platform of Jobs"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:layout_margin="5dp"
+            android:textSize="20dp"
+            android:textScaleX="1.2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:textSize="25sp"
+            android:textStyle="italic"
+            android:paddingLeft="15dp"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            android:hint="@string/search"
+            android:drawableLeft="@drawable/search"
+            android:background="@color/white"
+
+            ></EditText>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:background="@color/bgj"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job1"
+                    android:textStyle="bold"
+                    android:textScaleX="1"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job2"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job3"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job4"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"  />
+                <Button
+
+                    android:id="@+id/b1id"
+                    android:layout_width="150dp"
+                    android:paddingTop="5dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="APPLY ONLINE"
+                    android:background="@color/apply"
+                    style="@android:style/Animation"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:background="@color/bgj"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job2_1"
+                    android:textStyle="bold"
+                    android:textScaleX="1"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job2_2"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job2_3"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job2_4"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"  />
+                <Button
+
+                    android:id="@+id/b2id"
+                    android:layout_width="150dp"
+                    android:paddingTop="5dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="APPLY ONLINE"
+                    android:background="@color/apply"
+                    style="@android:style/Animation"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:background="@color/bgj"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job3_1"
+                    android:textStyle="bold"
+                    android:textScaleX="1"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job3_2"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job3_3"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job3_4"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"  />
+                <Button
+
+                    android:id="@+id/b3id"
+                    android:layout_width="150dp"
+                    android:paddingTop="5dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="APPLY ONLINE"
+                    android:background="@color/apply"
+                    style="@android:style/Animation"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:background="@color/bgj"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job4_1"
+                    android:textStyle="bold"
+                    android:textScaleX="1"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job4_2"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job4_3"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job4_4"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"  />
+                <Button
+
+                    android:id="@+id/b4id"
+                    android:layout_width="150dp"
+                    android:paddingTop="5dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="APPLY ONLINE"
+                    android:background="@color/apply"
+                    style="@android:style/Animation"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:background="@color/bgj"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job1"
+                    android:textStyle="bold"
+                    android:textScaleX="1"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job2"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job3"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job4"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"  />
+                <Button
+
+                    android:id="@+id/b5id"
+                    android:layout_width="150dp"
+                    android:paddingTop="5dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="APPLY ONLINE"
+                    android:background="@color/apply"
+                    style="@android:style/Animation"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:background="@color/bgj"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job2_1"
+                    android:textStyle="bold"
+                    android:textScaleX="1"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job2_2"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job2_3"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job2_4"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"  />
+                <Button
+
+                    android:id="@+id/b6id"
+                    android:layout_width="150dp"
+                    android:paddingTop="5dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="APPLY ONLINE"
+                    android:background="@color/apply"
+                    style="@android:style/Animation"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:background="@color/bgj"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job3_1"
+                    android:textStyle="bold"
+                    android:textScaleX="1"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job3_2"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job3_3"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job3_4"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"  />
+                <Button
+
+                    android:id="@+id/b7id"
+                    android:layout_width="150dp"
+                    android:paddingTop="5dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="APPLY ONLINE"
+                    android:background="@color/apply"
+                    style="@android:style/Animation"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:background="@color/bgj"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job4_1"
+                    android:textStyle="bold"
+                    android:textScaleX="1"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job4_2"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job4_3"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job4_4"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"  />
+                <Button
+
+                    android:id="@+id/b8id"
+                    android:layout_width="150dp"
+                    android:paddingTop="5dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="APPLY ONLINE"
+                    android:background="@color/apply"
+                    style="@android:style/Animation"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:background="@color/bgj"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job1"
+                    android:textStyle="bold"
+                    android:textScaleX="1"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job2"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job3"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job4"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"  />
+                <Button
+
+                    android:id="@+id/b9id"
+                    android:layout_width="150dp"
+                    android:paddingTop="5dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="APPLY ONLINE"
+                    android:background="@color/apply"
+                    style="@android:style/Animation"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:background="@color/bgj"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job2_1"
+                    android:textStyle="bold"
+                    android:textScaleX="1"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job2_2"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job2_3"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job2_4"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"  />
+                <Button
+
+                    android:id="@+id/b10id"
+                    android:layout_width="150dp"
+                    android:paddingTop="5dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="APPLY ONLINE"
+                    android:background="@color/apply"
+                    style="@android:style/Animation"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:background="@color/bgj"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job3_1"
+                    android:textStyle="bold"
+                    android:textScaleX="1"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job3_2"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job3_3"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job3_4"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"  />
+                <Button
+
+                    android:id="@+id/b11id"
+                    android:layout_width="150dp"
+                    android:paddingTop="5dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="APPLY ONLINE"
+                    android:background="@color/apply"
+                    style="@android:style/Animation"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:background="@color/bgj"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job4_1"
+                    android:textStyle="bold"
+                    android:textScaleX="1"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job4_2"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job4_3"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job4_4"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"  />
+                <Button
+
+                    android:id="@+id/b12id"
+                    android:layout_width="150dp"
+                    android:paddingTop="5dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="APPLY ONLINE"
+                    android:background="@color/apply"
+                    style="@android:style/Animation"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:background="@color/bgj"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job1"
+                    android:textStyle="bold"
+                    android:textScaleX="1"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job2"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job3"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job4"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"  />
+                <Button
+
+                    android:layout_width="150dp"
+                    android:paddingTop="5dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="APPLY ONLINE"
+                    android:background="@color/apply"
+                    style="@android:style/Animation"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:background="@color/bgj"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job2_1"
+                    android:textStyle="bold"
+                    android:textScaleX="1"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job2_2"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job2_3"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job2_4"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"  />
+                <Button
+
+                    android:id="@+id/b13id"
+                    android:layout_width="150dp"
+                    android:paddingTop="5dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="APPLY ONLINE"
+                    android:background="@color/apply"
+                    style="@android:style/Animation"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:background="@color/bgj"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job3_1"
+                    android:textStyle="bold"
+                    android:textScaleX="1"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job3_2"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job3_3"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job3_4"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"  />
+                <Button
+
+                    android:id="@+id/b14id"
+                    android:layout_width="150dp"
+                    android:paddingTop="5dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="APPLY ONLINE"
+                    android:background="@color/apply"
+                    style="@android:style/Animation"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:background="@color/bgj"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job4_1"
+                    android:textStyle="bold"
+                    android:textScaleX="1"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job4_2"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job4_3"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job4_4"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"  />
+                <Button
+
+                    android:id="@+id/b15id"
+                    android:layout_width="150dp"
+                    android:paddingTop="5dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="APPLY ONLINE"
+                    android:background="@color/apply"
+                    style="@android:style/Animation"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:background="@color/bgj"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job1"
+                    android:textStyle="bold"
+                    android:textScaleX="1"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job2"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job3"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job4"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"  />
+                <Button
+
+                    android:layout_width="150dp"
+                    android:paddingTop="5dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="APPLY ONLINE"
+                    android:background="@color/apply"
+                    style="@android:style/Animation"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:background="@color/bgj"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job2_1"
+                    android:textStyle="bold"
+                    android:textScaleX="1"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job2_2"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job2_3"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job2_4"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"  />
+                <Button
+
+                    android:layout_width="150dp"
+                    android:paddingTop="5dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="APPLY ONLINE"
+                    android:background="@color/apply"
+                    style="@android:style/Animation"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:background="@color/bgj"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job3_1"
+                    android:textStyle="bold"
+                    android:textScaleX="1"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job3_2"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job3_3"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job3_4"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"  />
+                <Button
+
+                    android:layout_width="150dp"
+                    android:paddingTop="5dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="APPLY ONLINE"
+                    android:background="@color/apply"
+                    style="@android:style/Animation"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:background="@color/bgj"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job4_1"
+                    android:textStyle="bold"
+                    android:textScaleX="1"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job4_2"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job4_3"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job4_4"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"  />
+                <Button
+
+                    android:layout_width="150dp"
+                    android:paddingTop="5dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="APPLY ONLINE"
+                    android:background="@color/apply"
+                    style="@android:style/Animation"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:background="@color/bgj"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job1"
+                    android:textStyle="bold"
+                    android:textScaleX="1"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job2"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job3"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job4"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"  />
+                <Button
+
+                    android:layout_width="150dp"
+                    android:paddingTop="5dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="APPLY ONLINE"
+                    android:background="@color/apply"
+                    style="@android:style/Animation"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:background="@color/bgj"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job2_1"
+                    android:textStyle="bold"
+                    android:textScaleX="1"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job2_2"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job2_3"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job2_4"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"  />
+                <Button
+
+                    android:layout_width="150dp"
+                    android:paddingTop="5dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="APPLY ONLINE"
+                    android:background="@color/apply"
+                    style="@android:style/Animation"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:background="@color/bgj"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job3_1"
+                    android:textStyle="bold"
+                    android:textScaleX="1"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job3_2"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job3_3"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job3_4"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"  />
+                <Button
+
+                    android:layout_width="150dp"
+                    android:paddingTop="5dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="APPLY ONLINE"
+                    android:background="@color/apply"
+                    style="@android:style/Animation"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:background="@color/bgj"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job4_1"
+                    android:textStyle="bold"
+                    android:textScaleX="1"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job4_2"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job4_3"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job4_4"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"  />
+                <Button
+
+                    android:layout_width="150dp"
+                    android:paddingTop="5dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="APPLY ONLINE"
+                    android:background="@color/apply"
+                    style="@android:style/Animation"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:background="@color/bgj"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job1"
+                    android:textStyle="bold"
+                    android:textScaleX="1"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job2"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job3"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job4"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"  />
+                <Button
+
+                    android:layout_width="150dp"
+                    android:paddingTop="5dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="APPLY ONLINE"
+                    android:background="@color/apply"
+                    style="@android:style/Animation"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:background="@color/bgj"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job2_1"
+                    android:textStyle="bold"
+                    android:textScaleX="1"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job2_2"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job2_3"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job2_4"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"  />
+                <Button
+
+                    android:layout_width="150dp"
+                    android:paddingTop="5dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="APPLY ONLINE"
+                    android:background="@color/apply"
+                    style="@android:style/Animation"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:background="@color/bgj"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job3_1"
+                    android:textStyle="bold"
+                    android:textScaleX="1"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job3_2"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job3_3"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job3_4"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"  />
+                <Button
+
+                    android:layout_width="150dp"
+                    android:paddingTop="5dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="APPLY ONLINE"
+                    android:background="@color/apply"
+                    style="@android:style/Animation"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:background="@color/bgj"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job4_1"
+                    android:textStyle="bold"
+                    android:textScaleX="1"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job4_2"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job4_3"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job4_4"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"  />
+                <Button
+
+                    android:layout_width="150dp"
+                    android:paddingTop="5dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="APPLY ONLINE"
+                    android:background="@color/apply"
+                    style="@android:style/Animation"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:background="@color/bgj"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job1"
+                    android:textStyle="bold"
+                    android:textScaleX="1"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job2"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job3"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job4"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"  />
+                <Button
+
+                    android:layout_width="150dp"
+                    android:paddingTop="5dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="APPLY ONLINE"
+                    android:background="@color/apply"
+                    style="@android:style/Animation"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:background="@color/bgj"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job2_1"
+                    android:textStyle="bold"
+                    android:textScaleX="1"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job2_2"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job2_3"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job2_4"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"  />
+                <Button
+
+                    android:layout_width="150dp"
+                    android:paddingTop="5dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="APPLY ONLINE"
+                    android:background="@color/apply"
+                    style="@android:style/Animation"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:background="@color/bgj"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job3_1"
+                    android:textStyle="bold"
+                    android:textScaleX="1"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job3_2"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job3_3"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job3_4"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"  />
+                <Button
+
+                    android:layout_width="150dp"
+                    android:paddingTop="5dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="APPLY ONLINE"
+                    android:background="@color/apply"
+                    style="@android:style/Animation"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:background="@color/bgj"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job4_1"
+                    android:textStyle="bold"
+                    android:textScaleX="1"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job4_2"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job4_3"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/job4_4"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/jobc"  />
+                <Button
+
+                    android:layout_width="150dp"
+                    android:paddingTop="5dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="APPLY ONLINE"
+                    android:background="@color/apply"
+                    style="@android:style/Animation"
+                    />
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:text="@string/footer"
+                android:textColor="@color/white"
+                android:textScaleX="1"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+       <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+           android:layout_margin="5dp"
+           android:padding="5dp"
+                android:text="@string/copy"
+                android:textColor="@color/yo"
+                android:textScaleX="1"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
